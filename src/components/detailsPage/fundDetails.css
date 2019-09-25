@@ -1,0 +1,9 @@
+.details-page{
+ margin: 20px;
+}
+
+.detail-item{
+    line-height: 2rem;
+    font-size: 20px;
+    margin-bottom: 20px;
+}

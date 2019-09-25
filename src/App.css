@@ -1,22 +1,58 @@
-.App {
-  text-align: center;
+body {
+  font-size: 14px;
+}
+* {
+  box-sizing: border-box;
+}
+/* Global Table styles */
+table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+  color: rgba(0, 0, 0, 0.87);
+}
+table tr {
+  line-height: 1.3rem;
+}
+table td, table th {
+  border-bottom: 1px solid rgba(224, 224, 224, 1);
+  padding: 14px 40px 14px 16px;
+  text-align: left;
+  min-width: calc(20% - 3px);
+  vertical-align: top;
+}
+table th{
+  vertical-align: middle;
+  cursor: pointer;
+  font-weight: normal;
+  font-size: 1.05rem;
+}
+.fund-name a{
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+.fund-name{
+  width: 300px;
+}
+.fund-tables{
+  width: 80%;
+  margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
+/* select style */
+select {
+  height: 30px;
+  padding: 0 10px;
+  border-radius: 0;
+  background: none;
+  width: 200px;
+  margin: 0 5px;
+  font-size: 13px;
+  outline: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+.filters-wrapper{
+  margin: 30px 15px;
+  overflow: auto;
 }
